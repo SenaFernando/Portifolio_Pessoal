@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>S3N4's Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="/assets/images/Captura de tela 2024-09-16 033218.png" alt="Richard hanrick" width="90">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Fernando Sena</h1>
+
+          <p class="title">Analista de Dados</p>
+          
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Mostrar Contato</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+           <div class="contact-info">
+                <p class="contact-title">Email</p>
+                <a href="mailto:senafernando818@gmail.com" class="contact-link">senafernando818@gmail.com</a>
+           </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+                <p class="contact-title">Telefone</p>
+                <span class="contact-link">+55(61)98148-0531</span>
+            </div>
+           
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Localização</p>
+
+              <address>Brasília - DF</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/SenaFernando" class="social-link" target="blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/fernandosena0b976824a/" class="social-link" target="blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>Sobre</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Currículo</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfólio</button>
+          </li>
+
+          
+
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="sobre active" data-page="sobre">
+
+        <header>
+          <h2 class="h2 article-title">Sobre mim</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+           Sou um Analista de Dados Júnior com experiência em transformar dados em insights estratégicos. 
+           Tenho habilidade no uso de ferramentas como Power BI, Python e SQL, que aplico para coletar, processar e visualizar dados de forma eficiente. 
+          </p>
+
+          <p>
+            Estou em busca de novos desafios e oportunidades para aprimorar minhas habilidades
+             e contribuir com soluções baseadas em dados para o sucesso das organizações.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">O que eu faço</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/dashboard.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Dashboards</h4>
+
+                <p class="service-item-text">
+                  Criação de dashboards interativos com Power BI, transformando dados em insights visuais claros para facilitar a tomada de decisões.
+
+
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/python.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Desenvolvimento Python</h4>
+
+                <p class="service-item-text">
+                  Especializado na construção de pipelines ETL utilizando Python, com foco em extração de dados de fontes diversas.
+                  
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="/assets/images/development-web-development-svgrepo-com.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Desenvolvimento Web</h4>
+
+                <p class="service-item-text">
+                  Desenvolvimento de aplicações web utilizando HTML, CSS e JavaScript, garantindo design responsivo, e alta performance.
+
+
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="/assets/images/sql-svgrepo-com (1).svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Banco de Dados</h4>
+
+                <p class="service-item-text">
+                 Modelagem e gerenciamento de bancos de dados utilizando PostgreSQL, MySQL Server e Db2 (IBM).
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="curriculo" data-page="currículo">
+
+        <header>
+          <h2 class="h2 article-title">Currículo</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Educação</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Ciência de Dados - Estácio</h4>
+              
+
+              <span>2024-Atual</span>
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Analise e Desenvolvimento de Sistemas - UniCEUB</h4>
+              
+
+              <span>Graduado</span>
+
+              
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Ensino Médio Completo - Colégio Rogacionista</h4>
+
+              <span>2019</span>
+
+              
+
+            </li>
+
+            
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experiência</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Auxiliar Administrativo - Bombeiro Legal Civil</h4>
+
+              <span>2021 — 2023</span>
+
+              <p class="timeline-text">
+                 Fui responsável pela organização dos dados dos alunos por meio do Office 365 com
+                foco em Excel, realizando a coleta, análise e consolidação das informações. Desenvolvi dashboards
+                responsivos utilizando ferramentas de BI para visualização e monitoramento de dados
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Desenvolvedor - ThreeLancers</h4>
+
+              <span>2022 — 2024</span>
+
+              <p class="timeline-text">
+                Atuei como desenvolvedor FullStack no projeto acadêmico Three Lancers,
+                sendo responsável pela implementação e manutenção de APIs utilizando Node.js, Ptyhon e
+                MySQL para modelagem, otimização e gerenciamento de bancos de dados.
+              </p>
+
+            </li>
+
+            <
+
+          </ol>
+
+
+          
+        </section>
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Cursos</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Databases and SQL for Data Science with Python - IBM</h4>
+              
+
+              <span>Via Coursera</span>
+
+              <p class="timeline-text">
+                Conteúdo: Análise de dados, Python,  Gerenciamento de Banco de Dados Relacionais, SQL, Jupyter Notebooks.
+
+              </p>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Python for Data Science, AI & Development - IBM</h4>
+              
+
+              <span>Via Coursera</span>
+
+              <p class="timeline-text">
+                Conteúdo: Análise de dados, Python, Pandas, Numpy.
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Python Project for Data Engineering - IBM
+            </h4>
+
+              <span>Via Coursera</span>
+              <p class="timeline-text">
+                Projeto: Extração de dados do mundo real de um site público usando Webscraping e API de solicitações
+                em Python, Transformação dos dados de acordo com a declaração do problema, Carregamento de
+                dados usando o SQLite, ETL.
+
+              </p>
+              
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Power BI Essentials
+            </h4>
+
+              <span>Via Udemy</span>
+              <p class="timeline-text">
+                Conteúdo: Construção de Dashboards, compreensão da Modelagem de dados e Insights.
+              </p>
+              
+
+            </li>
+            
+
+          </ol>
+
+        </section>
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Minhas Habilidades</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Power BI</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">SQL</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Excel</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Desenvolvimento Web</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfólio" data-page="portfólio">
+
+        <header>
+          <h2 class="h2 article-title">Portfólio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>Todos</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Dashboards</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Aplicações</button>
+            </li>
+
+            
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Dashboards</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Aplicações</button>
+              </li>
+
+              
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item active" data-filter-item data-category="dashboards">
+              <a href="./assets/images/dashboard1.png" target="blank" id="imageLink">
+                <figure class="project-img" id="projectContent">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/dashboard1.png" alt="Acompanhamento_de_acidentes" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Acompanhamento de acidentes em rodovias federais</h3>
+
+                <p class="project-category">Dashboards</p>
+              </a>
+
+             
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="dashboards">
+              <a href="./assets/images/dashboard2.png"target="blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/dashboard2.png" alt="relatorio" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Relatório pesquisa de satisafação dos colaboradores</h3>
+
+                <p class="project-category">Dashboars</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="dashboards">
+              <a href="./assets/images/dashboard3.png" target="blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/dashboard3.png" alt="gestao" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Gestão de Faturamento e Logística</h3>
+
+                <p class="project-category">Dashboards</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="dashboards">
+                <a href="/assets/images/dashboard4.png" target="blank">
+           
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/dashboard4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Acompanhamento de Vendas</h3>
+
+                <p class="project-category">Dashboards</p>
+
+              </a>
+            </li>
+
+            
+            
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+
+</html>
